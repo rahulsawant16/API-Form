@@ -1,0 +1,77 @@
+/* Dark Mode Design */
+
+/* General body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2e2e2e;
+    color: #ddd;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centering the form container */
+.contact-form-container {
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: #3a3a3a;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading styles */
+h2 {
+    text-align: center;
+    font-size: 26px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Form input and textarea styles */
+.contact-form label {
+    font-size: 14px;
+    color: #aaa;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 20px;
+    border: 1px solid #555;
+    background-color: #555;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #ff5733;
+    background-color: #444;
+    outline: none;
+}
+
+/* Textarea specific styles */
+.contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+/* Submit button styles */
+.submit-btn {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    padding: 16px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background-color: #e74c3c;
+}
